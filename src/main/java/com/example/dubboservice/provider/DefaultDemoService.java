@@ -16,6 +16,7 @@ public class DefaultDemoService implements DemoService {
     @Override
     public User sayHello2(User user) {
         user.setBirthday(new Date());
+        user.setAge(11);
         return user;
     }
 }
